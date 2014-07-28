@@ -1,11 +1,12 @@
 AnnotationDao
 =============
-#<English Version>
-This project implements a simple object relationshiop mapping using java annotion.
-Guide line:
 
-###//Entity class
+#English Version
+This project implements a simple object relationshiop mapping using java annotion.
+
+###Samples:
 <pre><code>
+//Entity class
 @Table(name = "dog")
 public class Dog {
 	private boolean alive;
@@ -73,12 +74,12 @@ dog.setName("dog2");
 dao.update(dog);
 </code></pre>
 
-#<中文版>
+#中文版
 本项目利用Java注解实现了简单的Android SQLite O/R Mapping库。
-简单用法：
 
-###//实体类
+###示例：
 <pre><code>
+//实体类
 @Table(name = "dog")
 public class Dog {
 	private boolean alive;
