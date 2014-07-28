@@ -1,6 +1,3 @@
-AnnotationDao
-=============
-
 #English Version
 This project implements a simple object relationshiop mapping using java annotion.
 
